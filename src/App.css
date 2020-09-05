@@ -12,29 +12,53 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    -webkit-animation: jump 1s infinite  alternate;
-        animation: jump 1s infinite  alternate;     
+    -webkit-animation: jump 1s infinite alternate;
+    animation: jump 1s infinite alternate;
   }
+
   @-webkit-keyframes jump {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-30px); }
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-30px);
+    }
   }
+
   @keyframes jump {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-30px); }
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-30px);
+    }
   }
 
   .oval {
-    -webkit-animation: resize 1s infinite  alternate;
-        animation: resize 1s infinite  alternate;     
+    -webkit-animation: resize 1s infinite alternate;
+    animation: resize 1s infinite alternate;
   }
+
   @-webkit-keyframes resize {
-    0% { transform: scale(1.25); }
-    100% { transform: scale(1); }
+    0% {
+      transform: scale(1.25);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
+
   @keyframes resize {
-    0% { transform: scale(1.25); }
-    100% { transform: scale(1); }
+    0% {
+      transform: scale(1.25);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 }
 
@@ -59,6 +83,7 @@ header {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -71,3 +96,26 @@ header {
 html {
   scroll-behavior: smooth;
 }
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  line-height: 0.1em;
+  margin: 10px auto 50px;
+  font-size: 30px;
+}
+
+
+p span {
+  background: #485564;
+  padding: 0 10px;
+}
+
+
+
+
+
+
+
+
