@@ -4,7 +4,7 @@ import './Experience.css'
 function Experience() {
     return (
         <div className="experience" >
-            <a name="experience" className="anchor-space"></a>
+            <a name="experience" className="anchor-space" href="/#"> </a>
             <p className="section-title"><span>Experience</span></p>
             <div className="experience-content">
                 <ul class="timeline">
