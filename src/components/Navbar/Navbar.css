@@ -1,0 +1,12 @@
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color:#485564;
+    border-style: none;
+    opacity: 0.9
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}

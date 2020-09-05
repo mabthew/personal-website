@@ -1,0 +1,67 @@
+.experience {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-size: 12.5px;
+}
+
+@media (max-width: 576px) {
+    .experience {
+        padding-left: 4vw;
+        padding-right: 4vw;
+        font-size: 12.5px;
+    }
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    text-align: left;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #9C95DC;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.company-location {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.company-dates {
+    font-style: italic;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.company-description {
+
+}
