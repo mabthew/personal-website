@@ -3,17 +3,15 @@
 }
 
 .experience-content {
-    /* padding-left: 32.5vw;
-    padding-right: 32.5vw; */
     margin: auto;
     display: table;
     width: 50%;
     font-size: 12.5px;
 }
 
-@media (max-width: 1000px) {
-    .experience {
-        width: 85%;
+@media (max-width: 900px) {
+    .experience-content {
+        width: 95%;
     }
 }
 

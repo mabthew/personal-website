@@ -1,3 +1,26 @@
 .about {
     margin-bottom: 15vh;
+    font-size: 12.5px;
+}
+
+.about-content {
+    margin: auto;
+    width: 30%;
+    text-align: left;
+    overflow: hidden;   
+}
+
+@media (max-width: 900px) {
+    .about-content  {
+        width: 80%;
+    }
+}
+
+
+.col-md-2 ul {
+    padding: 0px; 
+}
+
+.col-md-2 ul li{
+    padding: 0px; 
 }

@@ -12,8 +12,18 @@
 }
 
 .oval {
-    height: 50px;
-    width: 100px;
+    height: 5vh;
+    width: 7.5vw;
+    background-color: #2F2F2F;
+    border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  .oval {
+    height: 2vh;
+    width: 10vw;
     background-color: #2F2F2F;
     border-radius: 50%;
   }
+}
+

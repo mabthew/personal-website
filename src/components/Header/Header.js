@@ -13,6 +13,7 @@ function Header() {
                     <div> Software Engineer | Boulder, CO</div>
                     <img src="images/me.png" className="App-logo" alt="logo" />
                     <div className="oval"></div>
+                    <a href="mailto:matthewcb11@gmail.com" className="button">Get in touch</a>
                 </div>
             </header>
         </div>
