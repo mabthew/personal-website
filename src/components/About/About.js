@@ -8,13 +8,13 @@ function About() {
             <p className="section-title"><span>About me</span></p>
 
             <div className="about-content">
-                <p>I'm a software engineer based in Boulder, CO. I love building software that makes people's lives better.</p>
+                <p>Hi! I'm a software engineer based in Boulder, CO. </p>
 
-                <p>My current goal is to learn as much as I can while providing value wherever possible at the company I'm at. Right now that company is <a href="https://www.linkedin.com/company/good-green-technology/" target="_blank" rel="noopener noreferrer">Good Green Technology</a>, where I work on a wide variety of meaningful and interesting projects as we find our footing in a quickly expanding market. </p>
+                <p>Right now I'm looking to learn as much as I can while providing value wherever possible at the company I'm at. Currently, that company is <a href="https://www.linkedin.com/company/good-green-technology/" target="_blank" rel="noopener noreferrer">Good Green Technology</a>, where I work on a wide variety of meaningful and interesting projects as we find our footing in a quickly expanding market. </p>
 
                 <p>My responsibilities range from developing our API, to designing database changes, to managing cloud instances of our QA and production servers.</p>
 
-                <p>Here are some technologies I've been working with lately:</p>
+                <p>Here are some of the technologies I've been working with lately:</p>
 
                 <div className="container">
                     <div className="row">
