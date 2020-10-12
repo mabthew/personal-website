@@ -4,7 +4,7 @@
     border-radius: 0px;
     background-color:#485564;
     border-style: none;
-    opacity: 0.9
+    opacity: 1;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -16,7 +16,7 @@
 }
 
 .nav.navbar-nav li a.button {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
   -moz-appearance: button;
   appearance: button;
 

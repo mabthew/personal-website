@@ -117,7 +117,7 @@ a {
 
 
 a.button {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
   -moz-appearance: button;
   appearance: button;
 

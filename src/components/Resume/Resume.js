@@ -3,8 +3,8 @@ import './Resume.css'
 
 function Resume() {
     return (
-        <div className="resume">
-            <embed src="resume.pdf" width="800px" height="1050px" />
+        <div className="resume-container">
+            <embed src="resume.pdf" type="application/pdf" className="resume" />
         </div>
     );
 }

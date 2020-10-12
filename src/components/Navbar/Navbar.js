@@ -23,10 +23,10 @@ function Navbar() {
                         <li><a href="https://www.goodreads.com/user/show/120963451-matthew-donovan" target="_blank" rel="noopener noreferrer"><GiBookshelf size={22} /></a></li>
                     </ul>
                     <ul className="nav navbar-nav navbar-right" >
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="/resume" target="_blank" rel="nofollow noopener noreferrer" className="button" >Resume</a></li>
+                        <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
+                        <li><a href="#experience" data-toggle="collapse" data-target=".navbar-collapse">Experience</a></li>
+                        <li><a href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a></li>
+                        <li><a href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer" className="button" >Resume</a></li>
                     </ul>
                 </div>
             </div>

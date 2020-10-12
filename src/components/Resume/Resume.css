@@ -1,4 +1,15 @@
-.resume {
-    text-align: center;
+.resume-container {
     background: #5C6164;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.resume {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }

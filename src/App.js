@@ -26,7 +26,7 @@ function App() {
               <Footer></Footer>
             </div>
           </Route>
-          <Route path="/resume">
+          <Route path="/resume.pdf">
             <Resume></Resume>
           </Route>
         </Switch>
