@@ -18,9 +18,9 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav" >
-                        <li><a href="https://www.linkedin.com/in/matthewdonovancs/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={22} /></a></li>
-                        <li><a href="https://github.com/mabthew" target="_blank" rel="noopener noreferrer"><AiFillGithub size={22} /></a></li>
-                        <li><a href="https://www.goodreads.com/user/show/120963451-matthew-donovan" target="_blank" rel="noopener noreferrer"><GiBookshelf size={22} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/matthewdonovancs/" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={22} /></a></li>
+                        <li><a href="https://github.com/mabthew" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><AiFillGithub size={22} /></a></li>
+                        <li><a href="https://www.goodreads.com/user/show/120963451-matthew-donovan" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><GiBookshelf size={22} /></a></li>
                     </ul>
                     <ul className="nav navbar-nav navbar-right" >
                         <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
