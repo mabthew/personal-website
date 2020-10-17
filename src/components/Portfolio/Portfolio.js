@@ -62,7 +62,7 @@ function Portfolio() {
                 <div className="card">
                     <div className="card-body">
                         <h5 className="card-title">Crowdpleaser</h5>
-                        <p className="card-text">A music streaming web app in which users can host parties and invite friends with a unique party code. Everybody in the party can add songs to a shared queue and vote to determine which song plays next. Built using a Node.js, Express, MongoDb, and React.</p>
+                        <p className="card-text">A music streaming web app in which users can host parties and invite friends with a unique party code. Everybody in the party can add songs to a shared queue and vote to determine which song plays next. Built using a Node.js, Express, MongoDB, and React.</p>
                         <a href="https://github.com/kylebremont/CrowdPleaser-server" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
                         <a href="https://crowdpleaser.love" target="_blank" rel="noopener noreferrer"><RiExternalLinkLine size={42} /></a>
                     </div>
