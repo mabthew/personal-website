@@ -18,6 +18,59 @@
     border-radius: 50%;
 }
 
+.oval {
+  -webkit-animation: resize 1s infinite alternate;
+  animation: resize 1s infinite alternate;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    -webkit-animation: jump 1s infinite alternate;
+    animation: jump 1s infinite alternate;
+  }
+
+  @-webkit-keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+  
+  @-webkit-keyframes resize {
+    0% {
+      transform: scale(1.25);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes resize {
+    0% {
+      transform: scale(1.25);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+
 @media (max-width: 900px) {
   .oval {
     height: 2vh;

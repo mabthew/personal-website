@@ -1,11 +1,11 @@
 .about {
     margin-bottom: 15vh;
-    font-size: 12.5px;
+    font-size: 15px;
 }
 
 .about-content {
     margin: auto;
-    width: 30%;
+    width: 50%;
     text-align: left;
     overflow: hidden;   
 }
