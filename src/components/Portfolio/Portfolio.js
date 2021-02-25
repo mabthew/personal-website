@@ -60,34 +60,43 @@ function Portfolio() {
                     slidesToSlide={1}
                     swipeable
                 >
-                    <div className="card">
-                        <h5 className="card-title">Crowdpleaser</h5>
-                        <p className="card-text">A music streaming web app in which users can host parties and invite friends with a unique party code. Everybody in the party can add songs to a shared queue and vote to determine which song plays next. Built using a Node.js, Express, MongoDB, and React.</p>
-                        <span> <a className="card-link" href="https://github.com/kylebremont/CrowdPleaser-server" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a></span>
-                        {/* <span><a className="card-links" href="https://crowdpleaser.love" target="_blank" rel="noopener noreferrer"><RiExternalLinkLine size={42} /></a></span> */}
-                    </div>
-                    <div className="card">
-                        <h5 className="card-title">Sorting Algorithm Visualizer</h5>
-                        <p className="card-text"> A react web app that visualizes different sorting algorithms on a histogram. Users can set size, speed, algorithm, and display style to visualize Merge Sort, Insertion Sort, Selection Sort, and Bubble Sort.</p>
-                        <a className="card-link" href="https://github.com/mabthew/sorting-visualizer" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
-                        <a className="card-link" href="https://mabthew.github.io/sorting-visualizer/" target="_blank" rel="noopener noreferrer"><RiExternalLinkLine size={42} /></a>
-                    </div>
-
-                    <div className="card">
-                        <h5 className="card-title">DropBucket</h5>
-                        <p className="card-text">File-hosting service using a RESTful Django API to communicate with GCP Storage Buckets, synchronizing across multiple devices to manage downloading, uploading, and deleting files reflecting changes in the QT interface.</p>
-                        <a className="card-link" href="https://github.com/mabthew/Dropbucket-deliverables" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
-                    </div>
-                    <div className="card">
-                        <h5 className="card-title">Scrabbler</h5>
-                        <p className="card-text">An anagram finder build using Node.js, Express, React, and Redis.</p>
-                        <a className="card-link" href="https://github.com/mabthew/anagram" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
-                    </div>
-                    <div className="card">
-                        <h5 className="card-title">This website!</h5>
-                        <p className="card-text">I made this website from scratch using React, HTML, and CSS to practice web design.</p>
-                        <a className="card-link" href="https://github.com/mabthew/personal-website" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
-                    </div>
+                    <a href="https://github.com/kylebremont/CrowdPleaser-server" target="_blank" rel="noopener noreferrer" >
+                        <div className="card">
+                            <h5 className="card-title">Crowdpleaser</h5>
+                            <p className="card-text">A music streaming web app in which users can host parties and invite friends with a unique party code. Everybody in the party can add songs to a shared queue and vote to determine which song plays next. Built using a Node.js, Express, MongoDB, and React.</p>
+                            <span> <a className="card-link" href="https://github.com/kylebremont/CrowdPleaser-server" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a></span>
+                            {/* <span><a className="card-links" href="https://crowdpleaser.love" target="_blank" rel="noopener noreferrer"><RiExternalLinkLine size={42} /></a></span> */}
+                        </div>
+                    </a>
+                    <a href="https://github.com/mabthew/fibonacci" target="_blank" rel="noopener noreferrer">
+                        <div className="card">
+                            <h5 className="card-title">High-performance Fibonacci API</h5>
+                            <p className="card-text">A fault-tolerant, high-throughput API that steps through the Fibonacci sequence. Implemented in Golang making use of an LRU cache and mutexes for concurrent goroutines. Unit testing, performance analysis, and Docker file provided in README.</p>
+                            <a className="card-link" href="https://github.com/mabthew/fibonacci" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
+                        </div>
+                    </a>
+                    <a href="https://mabthew.github.io/sorting-visualizer/" target="_blank" rel="noopener noreferrer">
+                        <div className="card">
+                            <h5 className="card-title">Sorting Algorithm Visualizer</h5>
+                            <p className="card-text"> A React web app that visualizes different sorting algorithms on a histogram. Users can set size, speed, algorithm, and display style to visualize Merge Sort, Insertion Sort, Selection Sort, and Bubble Sort.</p>
+                            <a className="card-link" href="https://github.com/mabthew/sorting-visualizer" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
+                            <a className="card-link" href="https://mabthew.github.io/sorting-visualizer/" target="_blank" rel="noopener noreferrer"><RiExternalLinkLine size={42} /></a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/mabthew/Dropbucket-deliverables" target="_blank" rel="noopener noreferrer">
+                        <div className="card">
+                            <h5 className="card-title">DropBucket</h5>
+                            <p className="card-text">File-hosting service using a RESTful Django API to communicate with GCP Storage Buckets, synchronizing across multiple devices to manage downloading, uploading, and deleting files reflecting changes in the QT interface.</p>
+                            <a className="card-link" href="https://github.com/mabthew/Dropbucket-deliverables" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/mabthew/anagram" target="_blank" rel="noopener noreferrer">
+                        <div className="card">
+                            <h5 className="card-title">Scrabbler</h5>
+                            <p className="card-text">A web app for cheating at scrabble built using Node.js, Express, React, and Redis. Allows for nearly instant lookup of anagrams and scrabble words from a dictionary of 200,000+ words. The API exposes several endpoints for querying, adding, and deleting from the dictionary.</p>
+                            <a className="card-link" href="https://github.com/mabthew/anagram" target="_blank" rel="noopener noreferrer"><AiFillGithub size={42} /></a>
+                        </div>
+                    </a>
                 </Carousel>
             </div>
         </div >
