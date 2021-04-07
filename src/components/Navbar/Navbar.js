@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillGitlab } from 'react-icons/ai';
 import { GiBookshelf } from 'react-icons/gi';
 import './Navbar.css'
 
@@ -19,6 +19,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav" >
                         <li><a href="https://www.linkedin.com/in/matthewdonovancs/" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={22} /></a></li>
+                        <li><a href="https://gitlab.com/matthewcb11" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><AiFillGitlab size={22} /></a></li>
                         <li><a href="https://github.com/mabthew" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><AiFillGithub size={22} /></a></li>
                         <li><a href="https://www.goodreads.com/user/show/120963451-matthew-donovan" data-toggle="collapse" data-target=".navbar-collapse" target="_blank" rel="noopener noreferrer"><GiBookshelf size={22} /></a></li>
                     </ul>
