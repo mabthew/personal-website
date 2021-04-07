@@ -61,9 +61,17 @@ ul.timeline > li:before {
     font-style: italic;
 }
 
+.company-position {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 .company-dates {
     margin-left: 10px;
     margin-bottom: 10px;
+    font-style: italic;
+    font-size: 12px;
 }
 
 .company-description li {
