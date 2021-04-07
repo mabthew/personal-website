@@ -14,10 +14,9 @@ function Experience() {
                         <div className="company-position">Lead Software Engineer</div>
                         <div className="company-dates">January 2021 - Present</div>
                         <ul className="company-description">
-                            <li>Developed core API functionality while improving efficiency and readability through code refactoring, optimization, and documentation.</li>
-                            <li>Designed functional React components utilizing flux to integrate data from back-end services.</li>
-                            <li>Managed cloud instances on AWS for the server and database deployments.</li>
-                            <li>Built CI/CD pipelines using GitLab to automate QA and production code deployment.</li>
+                            <li>Led team in building software innovation and development capabilities, interfacing directly with developers, project managers, and management.</li>
+                            <li>Championed stronger coding standards by more thorough code reviews and better documentation.</li>
+                            <li>Architected automated regression testing suite to prevent bugs with code changes, in effect cutting reported bugs by nearly a third since implementation.</li>
                         </ul>
                     </li>
                     <li>
@@ -51,7 +50,7 @@ function Experience() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </div >
     );
 }
 
